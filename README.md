@@ -28,3 +28,13 @@ llvm-objdump -h xdp_drop.o
 ```bash
 sudo ip link set <Interface name> xdpgeneric obj xdp_drop.o sec xdp_drop
 ```
+
+5- Display status for running BPF programs
+```bash
+sudo bpftool prog show
+```
+
+and To have a look on XDP prog on Interface
+```bash
+ip a
+```

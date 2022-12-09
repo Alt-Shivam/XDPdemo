@@ -4,6 +4,15 @@
 ```bash
 sudo apt install clang llvm libelf-dev libpcap-dev gcc-multilib build-essential
 ```
+```bash
+sudo apt install libbpf-dev
+```
+```bash
+sudo apt install linux-headers-$(uname -r)
+```
+```bash
+sudo apt install linux-tools-common linux-tools-generic
+```
 
 2- Build and dump the BPF object.
 ```bash

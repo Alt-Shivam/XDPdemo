@@ -38,3 +38,7 @@ and To have a look on XDP prog on Interface
 ```bash
 ip a
 ```
+6- To de-attach the program.
+```bash
+sudo ip link set <Interface name> xdpgeneric off
+```
